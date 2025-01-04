@@ -17,5 +17,5 @@ How to use this:
 7. Adjust the port 8080 to something else, if you desire so, on `docker-compose.yml`
 8. If you have reverse proxy, update the IP on `apache2/remoteip.conf`
 9. Navigate to `/docker/JRT-webserver/` or the folder with `docker-compose.yml`. Start the container with command `sudo docker compose up -d`
-10. Navigate to `http://<pi-ip-address>:<port>/timing.html` (Note, there is no index.html on root, but I created one fancy example for you.)
+10. Navigate to `http://<pi-ip-address>:<port>/timing.html` (Note, there is no `index.html` on `_files_to_export_on_webserver`, but I created one fancy example for you.)
 
