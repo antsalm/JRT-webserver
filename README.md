@@ -5,7 +5,7 @@ Raspberry Pi 3b has been sufficient to run this container.
 **Prerequisites** Working Docker and Docker compose setup. Knowhow how to dump the server files from JRT.
 
 How to use this:
-1. Clone the contents and folder structure from Repo.
+1. Clone the contents and folder structure from Repo. Or download as ZIP from top right: Green CODE button -> Download ZIP.
 2. Put folders on `/docker/JRT-webserver/` on the Raspberry Pi (or be prepared to adjust the folder locations in `docker-compose.yml`)
 3. Dump the exported files from your JRT to `build/_files_to_export_on_webserver/`
 4. Add any other stuff you want to be copied inside the image to `build/html-and-images/`
