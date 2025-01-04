@@ -2,7 +2,7 @@
 
 Raspberry Pi 3b has been sufficient to run this container.
 
-**Prerequisites** Working Docker and Docker compose setup. Knowhow how to dump the server files from JRT.
+**Prerequisites** Working Docker and Docker compose setup. Knowhow how to dump the **_all_** server files from JRT.
 
 How to use this:
 1. Clone the contents and folder structure from Repo. Or download as ZIP from top right: Green CODE button -> Download ZIP.
@@ -19,3 +19,4 @@ How to use this:
 9. Navigate to `/docker/JRT-webserver/` or the folder with `docker-compose.yml`. Start the container with command `sudo docker compose up -d`
 10. Navigate to `http://<pi-ip-address>:<port>/timing.html` (Note, there is no `index.html` on `_files_to_export_on_webserver`, but I created one fancy example for you.)
 
+To keep this up to date. You have to rebuild the image with new set of _files_to_export_on_webserver when Joel updates his Timing software.
