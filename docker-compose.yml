@@ -1,0 +1,20 @@
+services:
+  JRT:
+    image: JRT-webserver-http-php-8.4.2
+    container_name: JRT-webserver
+    volumes:
+      - /docker/JRT-webserver/Config/JRT-Webserver/apache2/000-default.conf:/etc/apache2/sites-available/000-default.conf
+      - /docker/JRT-webserver/Config/JRT-Webserver/apache2/apache2.conf:/etc/apache2/apache2.conf
+      - /docker/JRT-webserver/Config/JRT-Webserver/apache2/remoteip.conf:/etc/apache2/conf-available/remoteip.conf
+      - /docker/JRT-webserver/Config/JRT-Webserver/logs:/var/log/apache2
+    ports:
+      - 60002:80
+    hostname: jrt-webserver
+    working_dir: /var/www/html
+    restart: no
+    healthcheck:
+      test: ["CMD", "service", "apache2", "status"]
+      start_period: 10s
+      interval: 10s
+      timeout: 5s
+      retries: 3
