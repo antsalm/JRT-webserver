@@ -14,5 +14,5 @@ How to use:
 7. Adjust the port 8080 to something else, if you desire so on `docker-compose.yml`
 8. If you have reverse proxy, update the IP on `apache2/remoteip.conf`
 9. Start the container
-10. Navigate to http://<pi-ip-address>:<port>/timing.html (note there is not and index.html if you don't create one)
+10. Navigate to `http://<pi-ip-address>:<port>/timing.html` (Note, there is no index.html on root, but I created one fancy example for you.)
 
