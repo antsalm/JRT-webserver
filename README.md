@@ -11,7 +11,7 @@ How to use:
 4. Add any other stuff you want to be copied inside the image to `build/html-and-images/`
 5. In `build/` folder; Build image with command: `sudo docker image build -t jrt-webserver-http-php-8.4.2 .`
 
-   ...Note above: **.** is part of the command at the end.
+   ...Note: **.** is part of the command at the end.
    
 6. ..Wait that the image is built.
 7. Adjust the port 8080 to something else, if you desire so, on `docker-compose.yml`
