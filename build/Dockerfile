@@ -1,4 +1,4 @@
-FROM arm64v8/php:8.4.4-apache-bookworm
+FROM arm64v8/php:8.4.8-apache-bookworm
 RUN apt update && apt upgrade -y
 COPY ./_files_to_export_on_webserver/. /var/www/html/
 COPY ./html-and-images/. /var/www/html
