@@ -9,7 +9,7 @@ How to use this:
 2. Put folders on `/docker/JRT-webserver/` on the Raspberry Pi (or be prepared to adjust the folder locations in `docker-compose.yml`)
 3. Dump the exported files from your JRT to `build/_files_to_export_on_webserver/`
 4. Add any other stuff you want to be copied inside the image to `build/html-and-images/`
-5. In `build/` folder; Build image with command: `sudo docker image build -t jrt-webserver-http-php-8.4.4 .`
+5. In `build/` folder; Build image with command: `sudo docker image build -t jrt-webserver-http-php-8.4.8 .`
 
    ...Note: **.** is part of the command at the end.
    
