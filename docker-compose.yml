@@ -1,6 +1,6 @@
 services:
   JRT:
-    image: jrt-webserver-http-php-8.4.8
+    image: jrt-webserver-http-php-8.5.1
     container_name: JRT-webserver
     volumes:
       - /docker/JRT-webserver/apache2/000-default.conf:/etc/apache2/sites-available/000-default.conf
