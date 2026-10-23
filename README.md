@@ -3,12 +3,13 @@
 Raspberry Pi 3b has been sufficient to run this container.
 
 **Prerequisites** Working Docker and Docker compose setup. Knowhow how to dump the **_all_** server files from JRT.
-**NOTE** the PHP CVE-2026-109618 and CVE-2026-109619 when using alternated verion of this.
+
+**NOTE** the PHP CVE-2026-109618 and CVE-2026-109619 when using alternated or older version of this repo.
 Affected versions of php are:
-PHP 8.5 versions prior to 8.5.12
-PHP 8.4 versions prior to 8.4.27
-PHP 8.3 versions prior to 8.3.36
-PHP 8.2 versions prior to 8.2.35
+* PHP 8.5 versions prior to 8.5.12
+* PHP 8.4 versions prior to 8.4.27
+* PHP 8.3 versions prior to 8.3.36
+* PHP 8.2 versions prior to 8.2.35
 
 How to use this:
 1. Clone the contents and folder structure from Repo. Or download as ZIP from top right: Green CODE button -> Download ZIP.
